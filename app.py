@@ -16,7 +16,7 @@ line_bot_api = LineBotApi('+hBMZD49xRwC5s6fqMdaCjzP8y3M1ckEJ/4thmWD+kh8R2jsTgQZ+
 # 必須放上自己的Channel Secret
 handler = WebhookHandler('7de4b0bc74519842f5ca8d4a85eaf71b')
 
-line_bot_api.push_message('Stocksecretary', TextSendMessage(text='你可以開始了'))
+line_bot_api.push_message('stocksecretary', TextSendMessage(text='你可以開始了'))
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
