@@ -12,9 +12,9 @@ from linebot.models import *
 app = Flask(__name__)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('+hBMZD49xRwC5s6fqMdaCjzP8y3M1ckEJ/4thmWD+kh8R2jsTgQZ+5zrgJ9Gzahx5rrIeE7KPhYkMjjSbV+08SXtc8e0eKcmKLuQ8JHmp7lPbuNeSt1Q4E5tgBuUwiQQJ+CLdtDUH6PXf6j0Gu+96AdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('Tocken')
 # 必須放上自己的Channel Secret
-handler = WebhookHandler('7de4b0bc74519842f5ca8d4a85eaf71b')
+handler = WebhookHandler('LINE_CHANNEL_ACCESS_TOKEN')
 
 line_bot_api.push_message('stocksecretary', TextSendMessage(text='你可以開始了'))
 
