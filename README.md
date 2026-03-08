@@ -137,4 +137,4 @@ Possible future improvements include:
 - supporting more Taiwan stocks
 - reorganizing the code into a cleaner modular structure
 - integrating the workflow with a LINE Bot so the forecasting results can be accessed more conveniently on mobile devices
-- adding AI-assisted interpretation of generated charts to help users better understand forecast trends and possible implications
+- provide AI-assisted explanation of generated charts to help users better understand forecast trends and possible implications
